@@ -63,7 +63,7 @@ analytic_sample_svy2 %>%
 # Method 3: Using custom function
 # https://github.com/jvargh7/functions
 
-source("C:/code/external/functions/survey/svysummary.R")
+source("https://raw.githubusercontent.com/jvargh7/functions/main/survey/svysummary.R")
 
 output = svysummary(analytic_sample_svy2,
            c_vars=c("age"),
